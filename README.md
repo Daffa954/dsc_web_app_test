@@ -46,7 +46,7 @@ Make sure you have the following installed:
     ```Bash
     cp .env.example .env
 
-    Generate the application key:
+Generate the application key:
     ```Bash
     php artisan key:generate
 
@@ -78,5 +78,5 @@ Make sure you have the following installed:
 
     ```Bash
     php artisan serve
-    
+
     Visit http://localhost:8000 in your browser.
