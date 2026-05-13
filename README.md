@@ -41,6 +41,7 @@ Make sure you have the following installed:
     ```bash
    composer install
 3. **Environment Setup**
+    
     Copy the .env.example file and rename it to .env.
 
     ```Bash
@@ -53,6 +54,7 @@ Make sure you have the following installed:
     ```
 
 4. **Database Configuration**
+    
     Open the .env file and configure your database credentials:
 
 
@@ -66,6 +68,7 @@ Make sure you have the following installed:
     ```
     
 5. **Migrate Database**
+    
     Run Migrations
     Create the database tables:
 

@@ -9,7 +9,7 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        // Mengambil semua kategori diurutkan berdasarkan abjad
+        
         $categories = Category::orderBy('name', 'asc')->get();
         return view('categories.index', compact('categories'));
     }
@@ -38,7 +38,6 @@ class CategoryController extends Controller
     public function update(Request $request, Category $category)
     {
         $validated = $request->validate([
-            // unique rule diabaikan untuk id kategori yang sedang diupdate
             'name' => 'required|string|max:255|unique:categories,name,' . $category->id
         ]);
 
