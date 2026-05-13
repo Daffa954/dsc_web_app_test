@@ -55,13 +55,15 @@ Make sure you have the following installed:
 4. **Database Configuration**
     Open the .env file and configure your database credentials:
 
-    Code snippet
+
+    ```Code snippet
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=your_database_name
     DB_USERNAME=your_database_user
     DB_PASSWORD=your_database_password
+    ```
     
 5. **Migrate Database**
     Run Migrations
@@ -74,11 +76,13 @@ Make sure you have the following installed:
     Build The assets
     ```Bash
     npm run build
+    ```
 
     Serve the Application
     Start the local development server:
 
     ```Bash
     php artisan serve
+    ```
     
     Visit http://localhost:8000 in your browser.
