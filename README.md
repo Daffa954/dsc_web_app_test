@@ -72,7 +72,8 @@ Make sure you have the following installed:
     ```Bash
     php artisan migrate
 
-6. **Run the Application**
+6. **Run the Application** 
+    
     Build The assets
     ```Bash
     npm run build
